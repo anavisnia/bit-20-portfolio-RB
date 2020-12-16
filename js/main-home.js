@@ -10,8 +10,7 @@ import { Testimonials } from './components/testimonials/Testimonials.js';
 renderHeader('nav', headerData);
 
 // testimonials
-// const homeTestimonials = new Testimonials('#testimonials_block', testimonialData, true, true, 7, 2, 'random');
-// const homeTestimonials = new Testimonials('#testimonials_block', testimonialData, false, true, 'random');
+
 const homeTestimonials = new Testimonials({
     selctor:'#testimonials_block',
     data: testimonialData,
@@ -22,4 +21,4 @@ const homeTestimonials = new Testimonials({
     visibilityStrategy:'last',
 });
 
-homeTestimonials.render();
+// homeTestimonials.render();
