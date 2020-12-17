@@ -55,7 +55,6 @@ class Testimonials {
                 continue;
             }
 
-            console.log(testimonial);
             HTML += `<div class="item" style="width: 20%;">
             <img class="avatar" src="./img/testimonials/avatar-2.png" alt="${testimonial.name} testimonial image">
             <div class="name">${testimonial.name}</div>
