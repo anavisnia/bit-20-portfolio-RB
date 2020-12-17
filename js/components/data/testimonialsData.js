@@ -1,39 +1,39 @@
-const testimonialData = [
+const testimonialsData = [
     {
         img: '',
         name: 'Chuck Norris',
         location: 'Texas',
         rating: 5,
-        commennt: 'I approve!',
+        comment: 'I approve! 👍🥋🐱‍👤',
     },
     {
         img: '',
-        name: 'Algimantas',
+        name: 'Algimantas Čekuolis',
         location: 'Lietuva',
         rating: 4,
-        commennt: 'Labas varakas, miielas atsiliepimo skaitytojas...',
+        comment: 'Labas vakaras mielas atsiliepimo skaitytojau... 📺👴',
     },
     {
         img: '',
-        name: 'Kleopatra',
-        location: 'Egypt',
+        name: 'Xena',
+        location: 'Antika',
         rating: 4,
-        commennt: 'Kaip nauduotis technologijomis?👀',
+        comment: 'KUR GABRIELE?! 🐱‍👤',
     },
     {
         img: '',
-        name: 'Dalia Grybauskaite',
+        name: 'Dalia Grybauskaitė',
         location: 'Lietuva',
         rating: 4,
-        commennt: 'Lietuva!',
+        comment: '🟨🟩🟥',
     },
     {
         img: '',
         name: 'John Doe',
-        location: 'Unknown',
+        location: 'Internetas',
         rating: 1,
-        commennt: 'Error',
+        comment: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est repellendus reiciendis adipisci alias, laudantium nihil quasi aperiam sequi maiores enim, recusandae perferendis magnam autem pariatur maxime saepe numquam temporibus molestiae.',
     },
 ];
 
-export { testimonialData }
+export { testimonialsData }

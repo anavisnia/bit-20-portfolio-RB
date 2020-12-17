@@ -1,6 +1,6 @@
 class Validator {
     static isSelector(Text) {
-        if (typeof text !== string ||
+        if (typeof text !== 'string' ||
             text === '') {
             return false;
         }
